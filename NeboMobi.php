@@ -1,7 +1,7 @@
 <?php
 //namespace NeboMobi;
-define('Antontih', '');
-define('Nasty943', '');
+define('SITE_LOGIN', '');
+define('SITE_PASSWORD', '');
 
 define('CURRENT_DIR', str_replace('//','/',dirname(__FILE__).'/'));
 include_once CURRENT_DIR . 'library/simple_html_dom.php';
@@ -26,8 +26,8 @@ class NeboMobi {
     );
 
     public function __construct($login, $password){
-        $this->login = $login;
-        $this->password = $password;
+        $this->Atihiy = $login;
+        $this->Nasty943 = $password;
     }
 
     protected function sendGetRequest($url){
