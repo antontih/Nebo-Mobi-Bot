@@ -1,7 +1,7 @@
 <?php
 //namespace NeboMobi;
-define('SITE_LOGIN', '');
-define('SITE_PASSWORD', '');
+define('Antontih', '');
+define('Nasty943', '');
 
 define('CURRENT_DIR', str_replace('//','/',dirname(__FILE__).'/'));
 include_once CURRENT_DIR . 'library/simple_html_dom.php';
